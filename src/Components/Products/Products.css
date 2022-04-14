@@ -1,0 +1,156 @@
+.products:nth-child(n-2) {
+  flex-direction: row-reverse;
+}
+.products .title {
+  font-family: MontserratBold;
+}
+
+.products p {
+  font-family: sans-serif;
+}
+
+.products .tableContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products h5 {
+  color: #22813f;
+  width: 70%;
+}
+
+.products table {
+  width: 70%;
+}
+
+.products table th {
+  background-color: #1c1a55;
+  color: #fff;
+}
+
+.products table tr:nth-child(n-1) {
+  background-color: #d1d2d3;
+}
+
+.products table tr:nth-child(n-2) {
+  background-color: #e8e9ea;
+}
+
+.products .title::before,
+.products .title {
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05),
+    0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
+}
+.products .title {
+  list-style: none;
+  padding-left: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.products .title {
+  background-color: #1c1a55;
+  color: #fff;
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
+  margin-top: 1rem;
+  min-height: 3rem;
+  padding: 1rem 1rem 1rem 3rem;
+  position: relative;
+  width: 100%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.products .title-char {
+  background-color: #1c1a5524;
+  color: #1c1a55;
+}
+.products .title-char::before,
+.products .title-char::after {
+  /* background: linear-gradient(135deg, #5434f6 0%, #d5d5d5 100%); */
+  background-color: #1c1a55;
+  border-radius: 1rem 1rem 0 1rem;
+  content: "";
+  height: 3rem;
+  left: -1rem;
+  overflow: hidden;
+  position: absolute;
+  /* top: -1rem; */
+  width: 3rem;
+}
+
+.products .char {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  color: #fff;
+}
+
+.leftSlide {
+  position: relative;
+  left: 0;
+  animation-duration: 1.2s;
+  animation-name: leftSlider;
+}
+
+@keyframes leftSlider {
+  from {
+    left: -500px;
+    opacity: 0;
+  }
+
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+.rightSlide {
+  position: relative;
+  right: 0;
+  animation-duration: 1.2s;
+  animation-name: rightSlider;
+}
+
+@keyframes rightSlider {
+  from {
+    right: -500px;
+    opacity: 0;
+  }
+
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+.products .reverse {
+  flex-direction: row-reverse;
+}
+
+.products .reverse .title {
+  background-color: #1c1a55;
+  color: #fff;
+}
+
+.products .reverse .title::before,
+.products .reverse .title::after {
+  background-color: #e7e7e8;
+}
+
+.products .reverse .char {
+  color: #1c1a55;
+}
+
+.img-width {
+  width: 85%;
+}
+
+.products hr {
+  background-color: #3d8b56;
+  height: 2px;
+  opacity: 1;
+  width: 90%;
+  margin: 0 auto;
+}

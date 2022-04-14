@@ -1,0 +1,111 @@
+ol.gradient-list > li::before,
+ol.gradient-list > li {
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05),
+    0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
+}
+ol.gradient-list {
+  counter-reset: gradient-counter;
+  list-style: none;
+  padding-left: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+ol.gradient-list > li {
+  background: white;
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
+  counter-increment: gradient-counter;
+  margin-top: 1rem;
+  min-height: 3rem;
+  padding: 1rem 1rem 1rem 3rem;
+  position: relative;
+  width: 40%;
+  font-weight: bold;
+}
+ol.gradient-list > li::before,
+ol.gradient-list > li::after {
+  /* background: linear-gradient(135deg, #5434f6 0%, #d5d5d5 100%); */
+  background-color: #1c1a55;
+  border-radius: 1rem 1rem 0 1rem;
+  content: "";
+  height: 3rem;
+  left: -1rem;
+  overflow: hidden;
+  position: absolute;
+  top: -1rem;
+  width: 3rem;
+}
+ol.gradient-list > li::before {
+  align-items: flex-end;
+  content: counter(gradient-counter);
+  color: #fff;
+  display: flex;
+  font: 900 1.5em/1 "Montserrat";
+  justify-content: flex-end;
+  padding: 0.125em 0.25em;
+  z-index: 1;
+}
+ol.gradient-list > li + li {
+  margin-top: 2.5rem;
+}
+
+.quality-text {
+  font-size: large;
+}
+
+.quality-content{
+  border-radius: 25px;
+  padding: 25px;
+  background-color: #e7e7e87a;
+  color: #1c1a55;
+}
+
+.quality h3{
+  line-height: 1.5;
+  /* border-bottom: 2px solid #35854d; */
+  position: relative;
+}
+.quality h3::after{
+  content: '';
+  width: 70%;
+  height: 2px;
+  background-color: #35854d;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.quality li {
+  transition: all 0.3s ease;
+  box-shadow: 3px 5px 25px -5px rgba(158, 158, 158, 0.75);
+  -webkit-box-shadow: 3px 5px 25px -5px rgba(158, 158, 158, 0.75);
+  -moz-box-shadow: 3px 5px 25px -5px rgba(158, 158, 158, 0.75);
+}
+.quality li:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 0px 8px 0px rgba(145, 145, 145, 0.75);
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(145, 145, 145, 0.75);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(145, 145, 145, 0.75);
+}
+
+@media (max-width: 1024px) {
+  ol.gradient-list > li{
+    width: 45%;
+    padding: 1rem 0rem 1rem 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  ol.gradient-list > li{
+    width: 100%;
+    padding: 1rem 0rem 1rem 2.5rem;
+  }
+  .quality{
+    width: 90% !important;
+  }
+  .quality-text{
+    font-size: medium;
+  }
+}

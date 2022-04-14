@@ -1,0 +1,108 @@
+html,
+body {
+  height: 100vh;
+}
+
+.App {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 255px;
+}
+
+/* .App {
+  text-align: center;
+} */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"), url(./Assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "MontserratMedium";
+  src: local("MontserratMedium"), url(./Assets/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: "MontserratBold";
+  src: local("MontserratBold"), url(./Assets/fonts/Montserrat-Bold.ttf);
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.header {
+  background-color: #e7e7e8 !important;
+  text-align: center;
+}
+
+@media (max-width: 1440px) {
+  .App {
+    padding-bottom: 240px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .App {
+    padding-bottom: 210px;
+  }
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding-bottom: 255px;
+  }
+}
+
+@media (max-width: 480px) {
+  .App {
+    padding-bottom: 260px;
+  }
+}
+
+.bold{
+  font-family: MontserratBold;
+}
+
+.medium{
+  font-family: MontserratMedium;
+}
+
+.scroll-btn{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 101;
+  font-size: xx-large;
+}
+
+.scroll-btn i{
+  cursor: pointer;
+  color: #000;
+}

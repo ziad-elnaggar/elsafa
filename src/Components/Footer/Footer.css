@@ -1,0 +1,119 @@
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 255px;
+  background-color: #e7e7e8;
+  text-align: center;
+}
+
+.footer .pdf {
+  background-color: #1c1a55;
+  color: #fff;
+}
+
+.footer .pdf i{
+  font-size: x-large;
+}
+
+.footer .logo {
+  width: 50%;
+  height: auto;
+}
+
+.footer .content {
+  color: #000;
+  text-align: start;
+}
+
+.footer .btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.footer .btn:hover {
+  background-color: RoyalBlue;
+}
+
+.footer svg {
+  position: relative;
+  top: -3px;
+  left: -2px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.footer .address i {
+  font-size: 150%;
+  color: #1c1a55;
+}
+.footer .address p {
+  font-size: 85%;
+  border-left: 1px solid rgb(174, 172, 172);
+}
+.footer .cr {
+  color: #000;
+  font-size: 90%;
+}
+.footer .cr i{
+  margin-right: 0.3rem;
+}
+
+@media (max-width: 1440px) {
+  .footer {
+    height: 240px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    height: 210px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    height: 255px;
+  }
+  .social{
+    width: 30%;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    height: 260px;
+    font-size: 90%;
+  }
+  .pdf{
+    position: relative;
+  }
+  .pdf .btn{
+    position: absolute;
+    bottom: -10px;
+    font-size: 0.8rem;
+  }
+  .pdf .btn svg{
+    width: 15px;
+    height: 15px;
+  }
+  .footer .nav-text{
+    font-size: 90%;
+  }
+  .social{
+    width: 50%;
+  }
+}
+
+.icons i{
+  font-size: x-large;
+  color: #1c1a55;
+  cursor: pointer;
+}

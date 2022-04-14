@@ -1,0 +1,30 @@
+.contacts .contact-col {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.contacts .contact-col p {
+  margin: 0;
+  margin-left: 0.5rem;
+}
+
+.contacts .contact-col i {
+  font-size: xx-large;
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  color: #1c1a55;
+}
+
+@media (max-width: 480px){
+  .contacts h3{
+    font-size: large;
+  }
+  .contacts .contact-col{
+    font-size: 100%;
+  }
+  .contacts .contact-col i{
+    font-size: large;
+  }
+}

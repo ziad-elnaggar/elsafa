@@ -1,0 +1,39 @@
+.about h3{
+    line-height: 1.5;
+    /* border-bottom: 2px solid #35854d; */
+    position: relative;
+}
+.about h3::after{
+    content: '';
+    width: 70%;
+    height: 2px;
+    background-color: #35854d;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.about-content{
+    border-radius: 25px;
+    padding: 25px;
+    background-color: #1c1a5514;
+    color: #1c1a55;
+}
+
+.about-content p{
+    font-size: large;
+}
+
+@media (max-width: 480px) {
+    .about{
+        width: 90% !important;
+    }
+    .about-content p{
+        font-size: medium;
+    }
+    .about-content h4{
+        font-size: larger;
+    }
+}
