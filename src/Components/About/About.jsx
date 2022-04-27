@@ -1,7 +1,9 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 import "./About.css";
 
 const About = () => {
+  const location = useLocation();
   return (
     <div className="about container mt-4 mb-5 w-75">
       <div className="row">
@@ -27,9 +29,11 @@ const About = () => {
             Our goal is to develop repeat business. Customer service is our way
             of creating a strong alliance with you , which is why we say…
           </p>
-          <h4 className="text-center bold mt-4">
-            “SERVICE IS OUR NUMBER ONE STOCKING ITEM”
-          </h4>
+          {location.pathname == "/about" ? (
+            <h4 className="text-center bold mt-4">
+              “SERVICE IS OUR NUMBER ONE STOCKING ITEM”
+            </h4>
+          ) : null}
         </div>
       </div>
     </div>

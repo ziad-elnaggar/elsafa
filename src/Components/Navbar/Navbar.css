@@ -21,6 +21,7 @@
 }
 .navbar .nav-item.dropdown ul{
   width: max-content;
+  position: absolute !important;
 }
 .navbar .nav-item.dropdown ul li{
   padding: 0;
@@ -33,13 +34,22 @@
   color: #fff;
 }
 .active {
-  font-weight: bold;
+  font-family: MontserratBold;
   background-color: #e7e7e8;
-  color: #000 !important;
+  color: #1c1a55 !important;
 }
 
 @media (max-width: 480px){
   .navbar li{
     font-size: 0.6rem;
   }
+}
+
+.header i{
+  font-size: 1.8rem;
+  color: #1c1a55;
+  cursor: pointer;
+}
+.header-contact{
+  font-family: MontserratMedium;
 }

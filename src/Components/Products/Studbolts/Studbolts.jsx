@@ -1,11 +1,10 @@
 import React from "react";
 import Products from "../Products";
 import studbolts from "../../../Assets/products/studbolts.jpg";
-import gaskets from "../../../Assets/products/gaskets.png";
 
 const Studbolts = () => {
-  const title1 = "Stud bolts, nuts & threaded bars";
-  const table1 = {
+  const title = "Stud bolts, nuts & threaded bars";
+  const table = {
     head: ["Material", "Specifications"],
     body: [
       [
@@ -14,38 +13,12 @@ const Studbolts = () => {
       ],
     ],
   };
-
-  const title2 = "Gaskets";
-  const table2 = {
-    head: ["Material", "Specifications"],
-    body: [
-      [
-        "Carbon Steel/Stainless Steel with Outer, Inner Ring & Winding",
-        "ASME B16.2",
-      ],
-    ],
-  };
   return (
     <>
-      <Products img={studbolts} title={title1} table={table1} circle={"A"}>
+      <Products img={studbolts} title={title} table={table}>
         <p>
           El SAFA is proud of its consolidated worldwide experience in supplying
           bolting & fasteners in the energy, oil & gas, power generation.
-        </p>
-      </Products>
-
-      <hr />
-
-      <Products
-        img={gaskets}
-        title={title2}
-        table={table2}
-        circle={"B"}
-        class={"reverse"}
-      >
-        <p>
-          Supplier of spiral wound, ring joint gaskets and other types in all
-          metal grades and construction as well as insulation kits.
         </p>
       </Products>
     </>

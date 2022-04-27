@@ -38,12 +38,12 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="container">
+        <div className="container-md container-fluid">
           <div className="row content mt-1">
             <div className="col-lg-2 col-sm-3 col-6 mt-3 d-sm-block d-none">
               <img className="logo" src={header2} alt="" />
             </div>
-            <div className="col-lg-4 col-5 d-flex justify-content-center mt-sm-3 mt-4 text-sm-start text-center">
+            <div className="col-lg-4 col-5 d-flex justify-content-center mt-sm-3 mt-4 text-sm-start text-md-center">
               <div className="col-6">
                 <Link className="nav-text d-block mt-2" to="/about">
                   About
@@ -80,13 +80,18 @@ const Footer = () => {
               </div>
             </div>
             <div
-              className="social col-lg-3 col-sm-12 col-4 d-flex justify-content-lg-around justify-content-sm-between
+              className="col-lg-3 col-12 d-flex justify-content-lg-around justify-content-md-start justify-content-sm-between
               justify-content-start w-md-50 mt-3"
             >
-              <p className="mb-0 medium social-text">Contact us via</p>
+              <p className="mb-0 medium social-text me-2">Visit our page on</p>
               <div className="icons d-flex justify-content-between w-25">
-                <i className="fa fa-facebook-square mx-sm-0 mx-3" aria-hidden="true"></i>
-                <i className="fa fa-twitter-square" aria-hidden="true"></i>
+                <a
+                  href="https://www.facebook.com/elsafatradingco1994/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <i className="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -94,7 +99,7 @@ const Footer = () => {
 
         <hr />
 
-        <div className="container cr">
+        <div className="container-md container-fluid cr">
           <div className="row text-start">
             <p className="mb-0">
               <i className="fa fa-copyright" aria-hidden="true"></i>

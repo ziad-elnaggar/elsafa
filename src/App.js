@@ -15,6 +15,8 @@ import Valves from "./Components/Products/Valves/Valves";
 import Fittings from "./Components/Products/Fittings/Fittings";
 import Plates from "./Components/Products/Plates/Plates";
 import Studbolts from "./Components/Products/Studbolts/Studbolts";
+import Heads from "./Components/Products/Heads/Heads";
+import Gaskets from './Components/Products/Gaskets/Gaskets';
 
 export const scrollBtn = () => {
   window.scrollTo(0, 0);
@@ -40,7 +42,9 @@ function App() {
           <Route path="products/valves" element={<Valves />} />
           <Route path="products/fittings" element={<Fittings />} />
           <Route path="products/plates" element={<Plates />} />
+          <Route path="products/heads" element={<Heads />} />
           <Route path="products/studbolts" element={<Studbolts />} />
+          <Route path="products/gaskets" element={<Gaskets />} />
         </Routes>
         <Footer />
       </BrowserRouter>

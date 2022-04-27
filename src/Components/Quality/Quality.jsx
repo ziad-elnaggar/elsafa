@@ -3,7 +3,7 @@ import "./Quality.css";
 
 const Quality = () => {
   return (
-    <div className="quality container my-4 w-75">
+    <div className="quality container-md container-fluid my-4 w-75">
       <div className="row">
         <div className="quality-content mb-4">
           <p className="quality-text">
