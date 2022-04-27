@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/elsafa/static/css/main.9e4d184b.css",
-    "main.js": "/elsafa/static/js/main.49549a10.js",
+    "main.css": "/elsafa/static/css/main.972b283f.css",
+    "main.js": "/elsafa/static/js/main.7a67a379.js",
     "static/js/787.79731ef0.chunk.js": "/elsafa/static/js/787.79731ef0.chunk.js",
     "static/media/ElSAFAProfile.pdf": "/elsafa/static/media/ElSAFAProfile.37b37533ecb317e2490a.pdf",
     "static/media/amoc.png": "/elsafa/static/media/amoc.45e427b5befe83129ccd.png",
     "static/media/gaskets.png": "/elsafa/static/media/gaskets.5da13b7735280ea106fb.png",
+    "static/media/home.jpg": "/elsafa/static/media/home.64e93e713c217cf1271e.jpg",
+    "static/media/pipes-a.jpg": "/elsafa/static/media/pipes-a.acd3d99a90f87bf888ce.jpg",
     "static/media/Montserrat-Medium.ttf": "/elsafa/static/media/Montserrat-Medium.3a0917345468c959207a.ttf",
     "static/media/Montserrat-Bold.ttf": "/elsafa/static/media/Montserrat-Bold.63fae500fdcf19ce83d4.ttf",
     "static/media/Montserrat-Regular.ttf": "/elsafa/static/media/Montserrat-Regular.ac98a5f5ca71180fe293.ttf",
@@ -25,19 +27,18 @@
     "static/media/fittings-b.jpg": "/elsafa/static/media/fittings-b.851516603d0cf5300bcb.jpg",
     "static/media/abuqir.png": "/elsafa/static/media/abuqir.f5194dff67a993bdc644.png",
     "static/media/sumed.png": "/elsafa/static/media/sumed.41f218cae1d40540b480.png",
-    "static/media/pipes-a.jpg": "/elsafa/static/media/pipes-a.bd03eedab8b50ac91f42.jpg",
-    "static/media/flanges.jpg": "/elsafa/static/media/flanges.2e369f20c8f882163d15.jpg",
+    "static/media/flanges.jpg": "/elsafa/static/media/flanges.1cb99295d7915477b4df.jpg",
     "static/media/alexandria.png": "/elsafa/static/media/alexandria.6c5544d4c991d8657711.png",
-    "static/media/studbolts.jpg": "/elsafa/static/media/studbolts.a8dc8e11969401b9c547.jpg",
+    "static/media/plates.jpg": "/elsafa/static/media/plates.388f5ead5bdcb93579df.jpg",
+    "static/media/studbolts.jpg": "/elsafa/static/media/studbolts.a4866ab50468a42aeb92.jpg",
     "static/media/heads.jpg": "/elsafa/static/media/heads.ff5608c68f96acf95823.jpg",
-    "static/media/plates.jpg": "/elsafa/static/media/plates.4cf7b4677d2e1ad0adae.jpg",
     "index.html": "/elsafa/index.html",
-    "main.9e4d184b.css.map": "/elsafa/static/css/main.9e4d184b.css.map",
-    "main.49549a10.js.map": "/elsafa/static/js/main.49549a10.js.map",
+    "main.972b283f.css.map": "/elsafa/static/css/main.972b283f.css.map",
+    "main.7a67a379.js.map": "/elsafa/static/js/main.7a67a379.js.map",
     "787.79731ef0.chunk.js.map": "/elsafa/static/js/787.79731ef0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e4d184b.css",
-    "static/js/main.49549a10.js"
+    "static/css/main.972b283f.css",
+    "static/js/main.7a67a379.js"
   ]
 }
