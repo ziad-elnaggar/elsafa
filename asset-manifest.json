@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/elsafa/static/css/main.972b283f.css",
-    "main.js": "/elsafa/static/js/main.7a67a379.js",
+    "main.js": "/elsafa/static/js/main.422d9ee5.js",
     "static/js/787.79731ef0.chunk.js": "/elsafa/static/js/787.79731ef0.chunk.js",
     "static/media/ElSAFAProfile.pdf": "/elsafa/static/media/ElSAFAProfile.37b37533ecb317e2490a.pdf",
     "static/media/amoc.png": "/elsafa/static/media/amoc.45e427b5befe83129ccd.png",
@@ -34,11 +34,11 @@
     "static/media/heads.jpg": "/elsafa/static/media/heads.ff5608c68f96acf95823.jpg",
     "index.html": "/elsafa/index.html",
     "main.972b283f.css.map": "/elsafa/static/css/main.972b283f.css.map",
-    "main.7a67a379.js.map": "/elsafa/static/js/main.7a67a379.js.map",
+    "main.422d9ee5.js.map": "/elsafa/static/js/main.422d9ee5.js.map",
     "787.79731ef0.chunk.js.map": "/elsafa/static/js/787.79731ef0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.972b283f.css",
-    "static/js/main.7a67a379.js"
+    "static/js/main.422d9ee5.js"
   ]
 }
